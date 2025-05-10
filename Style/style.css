@@ -1,0 +1,47 @@
+h1 {
+    color: #242424;
+    font-size: 94px;
+    letter-spacing: -2.5px;
+    text-decoration: underline;
+}
+
+.home-text {
+    font-family: Georgia;
+    font-size: 30px;
+}
+
+#second-text {
+    font-family: Georgia;
+    color: white;
+    font-size: 30px;
+}
+
+.newsletter {
+    background-color: #fed612;
+    padding: 40px;
+    text-align: center;
+    border: #242424 solid;
+}
+
+.newsletter .news-text {
+    font-size: 32px;
+}
+
+.subscribe-button {
+    text-decoration: none;
+    color: white;
+    background-color: #242424;
+    padding: 10px 20px 10px 20px;
+    border-radius: 121px;
+}
+.subscribe-button:hover {
+    color: #242424;
+    background-color: #ffffff;
+    transition-duration: .6s;
+}
+
+.inline-box {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
